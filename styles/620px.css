@@ -1,0 +1,12 @@
+@media screen and (min-width: 620px) {
+	.header--container {
+		display: grid;
+		grid-template-columns: 1fr 217px 1fr;
+	}
+	.header__logo {
+		width: 100%;
+	}
+	.header__button {
+		display: block;
+	}
+}

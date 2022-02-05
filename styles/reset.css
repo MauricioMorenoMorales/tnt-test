@@ -1,0 +1,30 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	font-size: 1.8rem;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+figure,
+img {
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}

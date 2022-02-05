@@ -1,0 +1,274 @@
+:root {
+	--primary-accent: #4a8a2d;
+	--secondary-accent: #f69e3c;
+	--background-secondary: #404040;
+	--font-color-primary-desaturated: #404040d7;
+	--background-secondary-saturated: #1d1d1d;
+	--font-weight-thin: 300;
+	--font-weight-normal: 500;
+	--font-weight-bold: 700;
+}
+
+html {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+	margin: 0;
+}
+p {
+	font-size: 1.8rem;
+	font-weight: var(--font-weight-thin);
+}
+.h1 {
+	font-size: 4.5rem;
+}
+.h2 {
+	font-size: 3rem;
+	color: var(--primary-accent);
+	font-weight: var(--font-weight-bold);
+}
+.h3 {
+	font-size: 2.5rem;
+	color: var(--primary-accent);
+	font-weight: var(--font-weight-bold);
+}
+
+.primary-button {
+	background: linear-gradient(
+		0deg,
+		rgba(56, 98, 26, 1) 0%,
+		rgba(83, 152, 46, 1) 100%
+	);
+	color: white;
+	border-radius: 30px;
+	padding: 5px 15px;
+	border: 2px solid white;
+	box-shadow: -3px 1px 14px 0px rgba(0, 0, 0, 0.75);
+	font-size: 1.5rem;
+}
+
+.primary-button:hover {
+	transform: scale(1.02);
+}
+
+.primary-button > b {
+	text-transform: uppercase;
+}
+
+.header--container {
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+}
+
+header {
+	box-shadow: -3px 1px 14px 0px rgba(0, 0, 0, 0.75);
+	padding: 10px 0;
+	position: relative;
+	z-index: 10;
+}
+
+.header__logo {
+	max-width: 200px;
+	margin-top: -30px;
+}
+
+.header__button {
+	display: none;
+}
+
+.header__phone {
+	padding-right: 30px;
+	padding-top: 10px;
+	text-align: end;
+}
+
+.header__phone > .accent {
+	color: var(--secondary-accent);
+	font-size: 2.5rem;
+	font-weight: var(--font-weight-thin);
+}
+
+/* Hero */
+
+.hero__image {
+	position: relative;
+	height: 400px;
+}
+
+.hero__image__background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 400px;
+	object-fit: cover;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1440px;
+}
+
+.hero__image__doctor {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	height: 350px;
+}
+
+.hero__text {
+	padding: 30px 20px;
+	background-color: var(--background-secondary);
+	color: white;
+	text-align: center;
+}
+
+.hero__text > * {
+	margin-bottom: 20px;
+}
+
+/*Call*/
+.call {
+	padding: 40px 20px;
+	text-align: center;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.call__text > * {
+	margin-bottom: 20px;
+}
+.call__image {
+	border: 3px solid white;
+	box-shadow: -3px 1px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*Reviews*/
+.reviews {
+	text-align: center;
+}
+
+.reviews > .h2 {
+	margin-bottom: 30px;
+}
+
+.reviews__carousel {
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	cursor: grab;
+	margin-bottom: 50px;
+}
+
+.reviews__carousel__item {
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	overflow: hidden;
+	padding-top: 80px;
+}
+
+.reviews__carousel__item__description {
+	color: var(--font-color-primary-desaturated);
+	line-height: 4rem;
+}
+
+.reviews__carousel__item > p {
+	padding: 30px;
+}
+
+.reviews__carousel__item__stars {
+	margin: 0 auto;
+	height: 23px;
+	width: 115px;
+	background-image: url('../assets/images/star.svg');
+}
+
+.reviews__carousel__item__name {
+	color: var(--font-color-primary-desaturated);
+}
+.reviews__carousel__item__name > b {
+	color: black;
+}
+
+.reviews__carousel__item > .google {
+	display: block;
+	color: white;
+	background-color: #dc4e42;
+}
+.reviews__carousel__item > .facebook {
+	display: block;
+	color: white;
+	background-color: #4c70a9;
+}
+.reviews__carousel__item > .twitter {
+	display: block;
+	background-color: #1da1f2;
+}
+.reviews__carousel__item > .yelp {
+	display: block;
+	color: white;
+	background-color: #b72717;
+}
+
+/*footer*/
+
+footer {
+	background-color: var(--background-secondary);
+	margin-top: 30px;
+}
+
+.footer--container {
+	color: white;
+	text-align: center;
+	padding: 20px 50px;
+	max-width: 650px;
+	margin: 0 auto;
+}
+
+.footer__contact__phone {
+	background: linear-gradient(
+		0deg,
+		rgba(56, 98, 26, 1) 0%,
+		rgba(83, 152, 46, 1) 100%
+	);
+	border: 2px solid white;
+	box-shadow: -3px 1px 14px 0px rgba(0, 0, 0, 0.75);
+	padding: 30px;
+	max-width: 320px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.footer__contact__phone > p {
+	font-size: 3rem;
+	font-weight: var(--font-weight-bold);
+	text-transform: uppercase;
+}
+
+.footer__contact__phone > small {
+	font-size: 2.4rem;
+	display: block;
+	margin-top: 20px;
+}
+
+.footer__contact__direction {
+	margin-top: 30px;
+}
+
+.footer__contact__direction__text {
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+
+.copyright {
+	text-align: center;
+	padding: 30px 20px;
+	background-color: var(--background-secondary-saturated);
+	color: white;
+}

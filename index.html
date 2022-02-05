@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+	<title>Document</title>
+	<link rel="stylesheet" href="./styles/normalize.css">
+	<link rel="stylesheet" href="./styles/reset.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="./styles/mobile.css">
+	<link rel="stylesheet" href="./styles/620px.css" media="(min-width: 610px)">
+	<link rel="stylesheet" href="./styles/900px.css" media="(min-width: 895px)">
+	<link rel="stylesheet" href="./styles/1024.css" media="(min-width: 1020px)">
+	<!-- Jquery -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<!-- Slick dependencies -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+		integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+	<header>
+		<div class="header--container">
+			<img src="./assets/images/logo.png" alt="" class="header__logo">
+			<button class="header__button primary-button"><b>Request</b> an Appointment</button>
+			<section class="header__phone">
+				<p>500 Lockwood Dr.</p>
+				<p>Richardson TX 75080</p>
+				<p class="accent">(123) 456-7890</p>
+			</section>
+		</div>
+	</header>
+
+	<main>
+
+		<article class="hero">
+			<figure class="hero__image">
+				<img src="./assets/images/banner-background.jpg" alt="" class="hero__image__background">
+				<img src="./assets/images/doctor.png" alt="doctor" class="hero__image__doctor">
+			</figure>
+			<div class="hero__text">
+				<h1>New Patients Always Welcome</h1>
+				<p>When looking for a new dentist, it pays to do your homework. As you learn more and compare your options, we
+					believe you will be impressed with what Glisten Dental offers. In fact, you will immediately notice the
+					difference in care and compassion that comes with being treated by our amazing team in our convenient location
+					on Lockwood St. right off of I75.</p>
+				<p>Our goal is simple. We want to make great dental experiences easy and affordable.</p>
+			</div>
+		</article>
+
+		<article class="call">
+			<section class="call__text">
+				<h2 class="h2">It All Starts with You</h2>
+				<p>
+					You will be amazed at the thoroughness of our new patient exam. At Glisten Dental, this means personal
+					attention from our team of doctors, assistants and hygienists. They will provide you with a complete
+					assessment
+					of your oral health while listening to your concerns and answering your questions. Most importantly, they will
+					develop a plan to return your smile to its optimal condition.
+				</p>
+				<p>You will receive a complete evaluation of the health of your teeth, gums and jaw. This starts with all
+					necessary digital x-rays and an oral cancer screening. We continue by capturing a series of high definition
+					photos of your mouth – so you can see what we see. And, we evaluate the health of existing crowns, inlays,
+					onlays, dentures or partial dentures.</p>
+			</section>
+			<img src="./assets/images/office.jpg" alt="" class="call__image">
+		</article>
+
+		<article class="reviews">
+			<h3 class="h3">5-Star Dentistry</h3>
+			<p class="h2">& Transformed Lives</p>
+			<section class="reviews__carousel">
+				<div class="reviews__carousel__item">
+					<p class="reviews__carousel__item__description">"Great office located directly in downtown. The front
+						desk staff makes you feel right at home immediately when you walk in the door. Everything was on time and it
+						was an extremely professionally run office. A fantastic experience that is super easy for anyone that works
+						downtown."</p>
+					<div class="reviews__carousel__item__stars"></div>
+					<p class="reviews__carousel__item__name"><b>Richh L.</b> Massapeque Park, NY</p>
+					<small class="google">Google</small>
+				</div>
+				<div class="reviews__carousel__item">
+					<p class="reviews__carousel__item__description">"This is a great place to go take care of your teeth. The team
+						was very professional examining and providing with solutions by priority. I had to do periodontal root
+						cleaning and did a great job, I felt that I was in good hands. All the people here were very gentle and
+						kind to me. They explained very well what was going on. Thanks to!"</p>
+					<div class="reviews__carousel__item__stars"></div>
+					<p class="reviews__carousel__item__name"><b>David G.</b> Broonx, NY</p>
+					<small class="facebook">Facebook</small>
+				</div>
+				<div class="reviews__carousel__item">
+					<p class="reviews__carousel__item__description">"I’ve been going to for a while now and it is a really
+						great place. Everyone from the dentists to the staff are very friendly and my hygienist,does such a
+						great job! I highly recommend if you’re looking for a dentist’s office in the downtown area."</p>
+					<div class="reviews__carousel__item__stars"></div>
+					<p class="reviews__carousel__item__name"><b>Bruce B.</b> Queens, NY</p>
+					<small class="yelp">Yelp</small>
+				</div>
+				<div class="reviews__carousel__item">
+					<p class="reviews__carousel__item__description">"The staff was great. Very welcoming and friendly. The dentist
+						was very nice and informative. I call him because he made me feel right at home and as if I was a
+						friend. He provided excellent service and I will be coming here for all my future dental needs!"</p>
+					<div class="reviews__carousel__item__stars"></div>
+					<p class="reviews__carousel__item__name"><b>Anastasia H.</b> Massapeque Park, NY</p>
+					<small class="twitter">Twitter</small>
+				</div>
+				<div class="reviews__carousel__item">
+					<p class="reviews__carousel__item__description">"The professionalism and friendliness of the whole team is
+						outstanding. I’ve been going with them for a complicated process and then for keeping up and cleaning. Every
+						visit is like visiting friends. I couldn’t be happier with the results."</p>
+					<div class="reviews__carousel__item__stars"></div>
+					<p class="reviews__carousel__item__name"><b>Richard W.</b> Brooklyn, NY</p>
+					<small class="google">Google</small>
+				</div>
+				<div class="reviews__carousel__item">
+					<p class="reviews__carousel__item__description">"The staff was very friendly and helpful and the dentist was
+						honest and straight forward. I have been to other dentists that exaggerated what my needs were in order to
+						make more money. So it was a relief to find a dentist with integrity."</p>
+					<div class="reviews__carousel__item__stars"></div>
+					<p class="reviews__carousel__item__name"><b>Daphne L.</b> Bronx, NY</p>
+					<small class="twitter">twitter</small>
+				</div>
+			</section>
+			<button class="primary-button"><b>Read</b> More Reviews</button>
+		</article>
+
+	</main>
+
+	<footer>
+		<div class="footer--container">
+			<h4 class="h1">Schedule Your Visit Today</h4>
+			<article class="footer__contact">
+				<section class="footer__contact__phone">
+					<p>Call Now</p>
+					<p>(123) 456-7890</p>
+					<small>To Schedule your</small>
+					<p>Appointment</p>
+				</section>
+				<section class="footer__contact__direction">
+					<img src="./assets/images/map.png" alt="">
+					<div class="footer__contact__direction__text">
+						<p><b>Glisten Dental</b></p>
+						<p>500 Lockwood Dr.</p>
+						<p>Richardson, TX 75080</p>
+					</div>
+				</section>
+			</article>
+		</div>
+		<div class="copyright">
+			<p>@2021 glisten dental | site designed and maintained by tnt dental</p>
+		</div>
+	</footer>
+</body>
+
+<script src="./js/main.js"></script>
+
+</html>

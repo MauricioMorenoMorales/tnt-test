@@ -1,0 +1,26 @@
+@media screen and (min-width: 1024px) {
+	.hero__text {
+		max-width: 1050px;
+	}
+	.call {
+		display: grid;
+		max-width: 1050px;
+		grid-template-areas: 'image text';
+		grid-template-columns: 1fr 1fr;
+		gap: 60px;
+	}
+	.call__text {
+		grid-area: text;
+		text-align: start;
+	}
+	.footer--container {
+		max-width: 1050px;
+	}
+	.footer__contact {
+		display: grid;
+		grid-template-columns: 320px 1fr;
+	}
+	.footer__contact__phone {
+		height: 225px;
+	}
+}

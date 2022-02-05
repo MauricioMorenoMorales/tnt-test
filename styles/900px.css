@@ -19,6 +19,11 @@
 		object-fit: cover;
 	}
 	/*Hero*/
+	.hero__doctor-name {
+		margin-top: -70px;
+		margin-bottom: 30px;
+		margin-left: 50%;
+	}
 	.hero__text {
 		max-width: 800px;
 		margin: 0 auto;

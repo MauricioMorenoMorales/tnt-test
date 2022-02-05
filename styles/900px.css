@@ -2,13 +2,13 @@
 	h2 {
 		font-size: 3.2rem;
 	}
+	.primary-button {
+		padding: 15px 35px;
+	}
 	.header--container {
 		grid-template-columns: 1fr 270px 1fr;
 		max-width: 1000px;
 		margin: 0 auto;
-	}
-	.primary-button {
-		padding: 15px 35px;
 	}
 	.header__phone > .accent {
 		font-size: 3.6rem;

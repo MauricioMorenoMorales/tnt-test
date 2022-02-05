@@ -9,6 +9,7 @@
 	--font-weight-bold: 700;
 }
 
+/*------General styles-------*/
 html {
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -63,6 +64,8 @@ p {
 	align-items: center;
 }
 
+/*------- Header Styles--------*/
+
 header {
 	box-shadow: -3px 1px 14px 0px rgba(0, 0, 0, 0.75);
 	padding: 10px 0;
@@ -91,7 +94,7 @@ header {
 	font-weight: var(--font-weight-thin);
 }
 
-/* Hero */
+/* ------ Hero styles--------- */
 
 .hero__image {
 	position: relative;
@@ -132,7 +135,7 @@ header {
 	margin-bottom: 20px;
 }
 
-/*Call*/
+/*------- Call to action styles -------*/
 .call {
 	padding: 40px 20px;
 	text-align: center;
@@ -147,7 +150,7 @@ header {
 	box-shadow: -3px 1px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
-/*Reviews*/
+/*------- Reviews carousel styles ----------*/
 .reviews {
 	text-align: center;
 }
@@ -173,13 +176,13 @@ header {
 	padding-top: 80px;
 }
 
+.reviews__carousel__item > p {
+	padding: 30px;
+}
+
 .reviews__carousel__item__description {
 	color: var(--font-color-primary-desaturated);
 	line-height: 4rem;
-}
-
-.reviews__carousel__item > p {
-	padding: 30px;
 }
 
 .reviews__carousel__item__stars {
@@ -216,7 +219,7 @@ header {
 	background-color: #b72717;
 }
 
-/*footer*/
+/*------- Footer Styles --------*/
 
 footer {
 	background-color: var(--background-secondary);

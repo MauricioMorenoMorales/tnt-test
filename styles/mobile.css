@@ -9,6 +9,28 @@
 	--font-weight-bold: 700;
 }
 
+@font-face {
+	font-family: 'fontello';
+	src: url('https://tntwebsites.com/tnticons/font/fontello.eot?69639098');
+	src: url('https://tntwebsites.com/tnticons/font/fontello.eot?69639098#iefix')
+			format('embedded-opentype'),
+		url('https://tntwebsites.com/tnticons/font/fontello.woff?69639098')
+			format('woff'),
+		url('https://tntwebsites.com/tnticons/font/fontello.ttf?69639098')
+			format('truetype'),
+		url('https://tntwebsites.com/tnticons/font/fontello.svg?69639098#fontello')
+			format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.star-icon {
+	font-family: 'fontello';
+	font-style: normal;
+	font-weight: normal;
+	color: #e8d14f;
+}
+
 /*------General styles-------*/
 html {
 	font-family: 'Ubuntu', sans-serif;
@@ -202,7 +224,6 @@ header {
 	margin: 0 auto;
 	height: 23px;
 	width: 115px;
-	background-image: url('../assets/images/star.svg');
 }
 
 .reviews__carousel__item__name {
